@@ -1,0 +1,289 @@
+body {
+ 	font-family: 'Roboto Slab', serif;
+}
+
+header {
+	padding-top: 27px;
+	background-image:url('img/Layer 10.png');
+}
+
+ul li {
+	display: block;
+}
+
+a  {
+	
+}
+
+/*Первая страница*/
+
+.img {
+	background:url('../img/Layer10.png') ;
+	filter: brightness(90%);
+	height: 770px;
+	}
+
+.menu__header {
+	font-size: 24px;
+	color: #fff;
+
+}
+
+.menu__item a {
+	margin-right: 30px;
+	color: #fff;
+
+}
+
+.welcome {
+	text-align: center;
+	color: #fff;
+	margin-top: 230px;
+
+}
+
+.welcome__title {
+	font-size: 48px;
+}
+
+.welcome__intro {
+	font-size: 20px;
+	margin-top: 36px;
+}
+
+.welcome a {
+	border: solid 2px white;
+	padding:18px 30px 18px 30px;
+	color: #fff;
+}
+
+.get {
+	margin-top: 70px;
+}
+
+/*Services*/
+
+.services {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.services__title {
+ 	font-size: 20px;
+	
+}
+
+.services__title::after {
+	content: "";
+	display: block;
+	width: 53px;
+	height:2px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.tip {
+	margin-top: 76px;
+	margin-bottom: 105px;
+}
+
+.tip1 {
+	width: 350px;
+	
+}
+
+
+.round1 {
+	border: 1px solid gray;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-color:#c0301c;
+	margin: 0 auto;
+}
+.round2 {
+	border: 1px solid gray;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-color:#c0301c;
+	margin: 0 auto;
+}
+.round3 {
+	border: 1px solid gray;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-color:#c0301c;
+	margin: 0 auto;
+}
+
+.icon {
+	font-size: 50px;
+	text-align: center;
+	padding: 17px 0 0 22px;
+	margin-bottom: 40px;
+}
+.icon2 {
+	font-size: 50px;
+	text-align: center;
+	padding: 17px 0 0 13px;
+	margin-bottom: 40px;
+}
+.icon3 {
+	font-size: 50px;
+	text-align: center;
+	padding: 17px 0 0 19px;
+	margin-bottom: 40px;
+}
+
+.services_item {
+	font-size: 16px;
+}
+
+.about {
+	margin-top: 38px;
+}
+
+.about__text {
+	width: 550px;
+	font-size: 14px;
+}
+
+.round__title {
+	font-size: 14px;
+	margin: 30px 0 30px 0;
+	text-align: center;
+}
+
+.round__text {
+	font-size: 12px;
+}
+
+/*About us*/
+
+.aboutus {
+	background-color: #f8f8f8;
+	height: 855px;
+}
+
+.about__title {
+	font-size: 20px;
+}
+
+.about__title::after {
+	content:"";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: black;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.about__intro {
+	font-size: 16px;
+}
+
+.about {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+/*карусель*/
+
+.car {
+	max-height: 50px;
+	margin: 0 auto;
+	margin-top: 70px;
+
+}
+
+.person_1 {
+	text-align: center;
+	margin-left: 30px;
+	
+
+}
+
+.person_1_img {
+	width: 200px;
+
+}
+
+.person_1_img a img:hover {
+
+	background-color: #929292;
+}
+
+.person_1_name {
+	font-size: 14px;
+	margin: 18px;
+
+}
+
+.person_1_item {
+	font-size: 13px;
+}
+
+/*work__title*/
+
+.latest_works {
+	display: block;
+	text-align: center;
+}
+
+.work__title {
+	font-size: 20px;
+	text-align: center;
+	margin-top:95px;
+}
+
+.work__title::after {
+	content:"";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+.puncts__item {
+	
+	font-size: 14px;
+	margin-left:15px;
+}
+
+.puncts {
+	display: block;
+	text-align: center;
+}
+
+.pic1.pic2 .pic3 .pic4 .pic5  {
+	width: 360px;
+	height: 320px;
+}
+
+.pic1.pic2 .pic3 .pic4 .pic5::hover {
+	color: #c6655c;
+}
+
+.latest_pics {
+	width: 1140px;
+}
+
+.latest_pics img {
+	width: 300px;
+	margin: 30px;
+}
