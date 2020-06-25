@@ -106,3 +106,16 @@
     margin: 0 auto;
   }
 }
+@media (max-width: 576px) {
+  .slider img {
+    margin: 0 auto;
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider img {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
