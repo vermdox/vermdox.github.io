@@ -211,7 +211,7 @@
 {
     left: 8px;
     z-index: 999;
-    background:#efefef;
+    background:transparent;
 }
 .slick-next
 {
@@ -225,6 +225,6 @@
     font-weight: 900;
     font-size: 50px;
     line-height: 1;
-    background:#efefef;
+    background:transparent;
     }
 }
