@@ -1,0 +1,204 @@
+/* картинка */
+.head_image {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+.open {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+.head_image:hover .open {
+  display: block;
+  background: rgba(158, 158, 158, 0.3);
+}
+img {
+  width: 100%;
+}
+.button {
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 40%;
+  right: 40%;
+  text-align: center;
+  top: 70%;
+  opacity: 0;
+}
+.button {
+  margin: 0 auto;
+  color: #fff;
+  border: 1px solid white;
+  padding: 1rem 1rem;
+}
+.head_image:hover .button {
+  opacity: 1;
+  top: 50%;
+  -webkit-transition: top .5s ease;
+  transition: top .5s ease;
+  color: #fff;
+  text-decoration: none;
+}
+/* картинка */
+.menu_item {
+  margin: auto;
+}
+.menu_item a {
+  color: #686768;
+}
+/* настройки слайдера */
+.slider {
+  margin: 10rem 0;
+  text-align: center;
+}
+.slider-item {
+  text-align: center;
+}
+.slider-item h2 {
+  color: #000;
+}
+.slider-item a {
+  outline: none;
+}
+.slider-item a:hover {
+  text-decoration: none;
+}
+.slider img {
+  margin: 0 1rem;
+  width: 90%;
+}
+.slider .slick-active {
+  outline: none;
+}
+/* prod */
+.prod-fluid {
+  padding: 5rem 0;
+  margin-bottom: 10rem;
+  background: #efefef;
+}
+.prod-fluid p {
+  margin-bottom: 2rem;
+}
+.prod-fluid .prod-img img {
+  width: 100%;
+}
+.prod-fluid .prod-btn {
+  border: 2px solid #5a5a5a;
+  margin-top: 2rem;
+  padding: 10px 30px;
+  color: #686868;
+}
+.prod-fluid .prod-btn:hover {
+  border: 2px solid #000;
+  background: #686868;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+/* chains.html */
+.chain-1,
+.chain-2,
+.chain-3,
+.chain-4 {
+  background-image: url(../img/bismark.jpg);
+  background-size: 100% 100%;
+  height: 400px;
+  display: block;
+  margin: 3rem auto;
+}
+.chain-1 .chain-text,
+.chain-2 .chain-text,
+.chain-3 .chain-text,
+.chain-4 .chain-text {
+  color: #fff;
+  vertical-align: middle;
+  padding-top: 8rem;
+  text-align: center;
+}
+.chain-2 {
+  background-image: url(../img/it.jpg);
+}
+.chain-3 {
+  background-image: url(../img/viz.jpg);
+}
+.chain-4 {
+  background-image: url(../img/anchor.jpg);
+}
+/* chains.html */
+/* footer */
+.line {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 5rem auto;
+  background: #828282;
+}
+.line-2 {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 2px;
+  margin: 10rem auto;
+  background: #828282;
+}
+.links a {
+  margin: 0 auto;
+  text-align: center;
+  color: #9c9c9c;
+}
+/* contacts */
+.map {
+  margin-bottom: 5rem;
+}
+.phone {
+  text-align: center;
+}
+/* медиа */
+@media screen (max-width: 991px) {
+  .map {
+    margin-bottom: 5rem;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .button {
+    padding: 1rem 0;
+    width: 7rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0;
+  }
+  .prod-disc h3,
+  p {
+    text-align: center;
+    padding: 1rem;
+  }
+  .prod-btn a {
+    margin: 0 auto;
+  }
+  .slider-item img {
+    width: 73%;
+    margin: 0 auto;
+  }
+  .button {
+    padding: 1rem 0;
+    width: 7rem;
+    margin-bottom: 2rem;
+  }
+  .slider {
+    background: #efefef;
+    padding: 6rem 0;
+  }
+  .slick-prev {
+    left: -30px;
+  }
+}
