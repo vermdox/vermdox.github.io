@@ -20,7 +20,7 @@ section {
   margin-top: 10rem;
   background-color: #ff00002e;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 .list-group-item.active {
   background-color: #9e9e9e;
